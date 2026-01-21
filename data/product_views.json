@@ -1,0 +1,135 @@
+[
+    {
+        "product_id": "8",
+        "user_id": 3,
+        "viewed_at": "2026-01-15 11:30:41",
+        "product_name": "\u0e2b\u0e21\u0e35\u0e19\u0e48\u0e32\u0e23\u0e31\u0e0149",
+        "seller_id": 4
+    },
+    {
+        "product_id": "8",
+        "user_id": 4,
+        "viewed_at": "2026-01-15 11:33:34",
+        "product_name": "\u0e2b\u0e21\u0e35\u0e19\u0e48\u0e32\u0e23\u0e31\u0e0149",
+        "seller_id": 4
+    },
+    {
+        "product_id": "8",
+        "user_id": 4,
+        "viewed_at": "2026-01-15 11:50:09",
+        "product_name": "\u0e2b\u0e21\u0e35\u0e19\u0e48\u0e32\u0e23\u0e31\u0e0149",
+        "seller_id": 4
+    },
+    {
+        "product_id": "8",
+        "user_id": 4,
+        "viewed_at": "2026-01-19 13:36:22",
+        "product_name": "\u0e2b\u0e21\u0e35\u0e19\u0e48\u0e32\u0e23\u0e31\u0e0149",
+        "seller_id": 4
+    },
+    {
+        "product_id": "7",
+        "user_id": 4,
+        "viewed_at": "2026-01-19 13:36:49",
+        "product_name": "\u0e01\u0e34\u0e4a\u0e1a\u0e15\u0e34\u0e14\u0e1c\u0e21\u0e40\u0e14\u0e47\u0e01\u0e41\u0e1f\u0e0a\u0e31\u0e48\u0e19 \u0e19\u0e48\u0e32\u0e23\u0e31\u0e01\u0e46 8 color",
+        "seller_id": 4
+    },
+    {
+        "product_id": "7",
+        "user_id": 3,
+        "viewed_at": "2026-01-21 13:49:30",
+        "product_name": "\u0e01\u0e34\u0e4a\u0e1a\u0e15\u0e34\u0e14\u0e1c\u0e21\u0e40\u0e14\u0e47\u0e01\u0e41\u0e1f\u0e0a\u0e31\u0e48\u0e19 \u0e19\u0e48\u0e32\u0e23\u0e31\u0e01\u0e46 8 color",
+        "seller_id": 4
+    },
+    {
+        "product_id": "3",
+        "user_id": 3,
+        "viewed_at": "2026-01-21 14:10:56",
+        "product_name": "\u0e2b\u0e21\u0e35\u0e19\u0e48\u0e32\u0e23\u0e31\u0e0169",
+        "seller_id": 4
+    },
+    {
+        "product_id": "3",
+        "user_id": 3,
+        "viewed_at": "2026-01-21 14:17:14",
+        "product_name": "\u0e2b\u0e21\u0e35\u0e19\u0e48\u0e32\u0e23\u0e31\u0e0169",
+        "seller_id": 4
+    },
+    {
+        "product_id": "3",
+        "user_id": 3,
+        "viewed_at": "2026-01-21 14:17:14",
+        "product_name": "\u0e2b\u0e21\u0e35\u0e19\u0e48\u0e32\u0e23\u0e31\u0e0169",
+        "seller_id": 4
+    },
+    {
+        "product_id": "3",
+        "user_id": 3,
+        "viewed_at": "2026-01-21 14:17:14",
+        "product_name": "\u0e2b\u0e21\u0e35\u0e19\u0e48\u0e32\u0e23\u0e31\u0e0169",
+        "seller_id": 4
+    },
+    {
+        "product_id": "3",
+        "user_id": 3,
+        "viewed_at": "2026-01-21 14:17:15",
+        "product_name": "\u0e2b\u0e21\u0e35\u0e19\u0e48\u0e32\u0e23\u0e31\u0e0169",
+        "seller_id": 4
+    },
+    {
+        "product_id": "3",
+        "user_id": 3,
+        "viewed_at": "2026-01-21 14:17:15",
+        "product_name": "\u0e2b\u0e21\u0e35\u0e19\u0e48\u0e32\u0e23\u0e31\u0e0169",
+        "seller_id": 4
+    },
+    {
+        "product_id": "3",
+        "user_id": 3,
+        "viewed_at": "2026-01-21 14:17:28",
+        "product_name": "\u0e2b\u0e21\u0e35\u0e19\u0e48\u0e32\u0e23\u0e31\u0e0169",
+        "seller_id": 4
+    },
+    {
+        "product_id": "3",
+        "user_id": 3,
+        "viewed_at": "2026-01-21 14:18:46",
+        "product_name": "\u0e2b\u0e21\u0e35\u0e19\u0e48\u0e32\u0e23\u0e31\u0e0169",
+        "seller_id": 4
+    },
+    {
+        "product_id": "3",
+        "user_id": 3,
+        "viewed_at": "2026-01-21 14:18:47",
+        "product_name": "\u0e2b\u0e21\u0e35\u0e19\u0e48\u0e32\u0e23\u0e31\u0e0169",
+        "seller_id": 4
+    },
+    {
+        "product_id": "4",
+        "user_id": 3,
+        "viewed_at": "2026-01-21 14:18:49",
+        "product_name": "\u0e01\u0e34\u0e4a\u0e1a\u0e15\u0e34\u0e14\u0e1c\u0e21\u0e25\u0e32\u0e22\u0e19\u0e48\u0e32\u0e23\u0e31\u0e01",
+        "seller_id": 4
+    },
+    {
+        "product_id": "8",
+        "user_id": 3,
+        "viewed_at": "2026-01-21 14:18:51",
+        "product_name": "\u0e2b\u0e21\u0e35\u0e19\u0e48\u0e32\u0e23\u0e31\u0e0149",
+        "seller_id": 4
+    },
+    {
+        "product_id": "8",
+        "user_id": 3,
+        "viewed_at": "2026-01-21 14:18:57",
+        "product_name": "\u0e2b\u0e21\u0e35\u0e19\u0e48\u0e32\u0e23\u0e31\u0e0149",
+        "seller_id": 4
+    },
+    {
+        "product_id": "7",
+        "user_id": 3,
+        "viewed_at": "2026-01-21 14:19:02",
+        "product_name": "\u0e01\u0e34\u0e4a\u0e1a\u0e15\u0e34\u0e14\u0e1c\u0e21\u0e40\u0e14\u0e47\u0e01\u0e41\u0e1f\u0e0a\u0e31\u0e48\u0e19 \u0e19\u0e48\u0e32\u0e23\u0e31\u0e01\u0e46 8 color",
+        "seller_id": 4
+    }
+]

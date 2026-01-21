@@ -1,0 +1,99 @@
+[
+    {
+        "username": "NaHee",
+        "password": "$2y$10$QqpRFmJ4X\/cDelzrEC3s.ue.5eJ5Miwopu5cXrgEFPyzBiZ4D2C1W",
+        "fullname": "NaJa",
+        "address": "3\/8888 \r\n",
+        "phone": "0641202717",
+        "avatar_config": {
+            "type": "image",
+            "src": "assets\/images\/a01.png"
+        },
+        "id": 1,
+        "created_at": "2025-12-03 07:27:13",
+        "is_banned": true,
+        "banned_at": "2026-01-21 07:53:22"
+    },
+    {
+        "username": "NaHeeNaJa",
+        "password": "$2y$10$5gVWqYy2K0EsHmEChS7Wmujqu432zFG6kxg4Ji4ILduphRKL9XwWm",
+        "fullname": "Naheeee",
+        "address": "22\/5",
+        "phone": "0641202717",
+        "avatar_config": {
+            "type": "image",
+            "src": "assets\/images\/a11.png"
+        },
+        "id": 2,
+        "created_at": "2025-12-09 02:51:42",
+        "is_banned": true,
+        "banned_at": "2026-01-19 09:02:37"
+    },
+    {
+        "username": "NaheeNaJa12",
+        "password": "$2y$10$YsKM2Z2lg4fanlyu7o62A.sNDxwl4NBG1VTeYN6jktrtuxrW6M6ry",
+        "fullname": "Nahee NaJa",
+        "address": "25\/54",
+        "phone": "0641202717",
+        "avatar_config": {
+            "type": "image",
+            "src": "assets\/images\/a14.png"
+        },
+        "id": 3,
+        "created_at": "2025-12-16 02:08:22"
+    },
+    {
+        "username": "\u0e23\u0e38\u0e08\u0e34\u0e23\u0e32",
+        "password": "$2y$10$ZwzXUMoNK0py3nWbWxPCveglfGmVOZela8MzmPS9p9ZdOGG3n8yMW",
+        "password_plain": "(\u0e2a\u0e21\u0e31\u0e04\u0e23\u0e01\u0e48\u0e2d\u0e19\u0e23\u0e30\u0e1a\u0e1a\u0e43\u0e2b\u0e21\u0e48)",
+        "fullname": "\u0e23\u0e38\u0e08\u0e34\u0e23\u0e32 \u0e1b\u0e30\u0e42\u0e1e\u0e17\u0e32\u0e19\u0e31\u0e07",
+        "address": "60\/1 \u0e21.11  \u0e15.\u0e1a\u0e49\u0e32\u0e19\u0e1e\u0e23\u0e34\u0e01 \u0e2d.\u0e1a\u0e49\u0e32\u0e19\u0e19\u0e32 \u0e08.\u0e19\u0e04\u0e23\u0e19\u0e32\u0e22\u0e01 26110",
+        "phone": "0955077213",
+        "avatar_config": {
+            "type": "image",
+            "src": "assets\/images\/a01.png"
+        },
+        "id": 4,
+        "created_at": "2025-12-17 07:31:51",
+        "is_seller": true,
+        "shop_name": "\u0e23\u0e38\u0e08\u0e34\u0e23\u0e32",
+        "shop_description": "555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555",
+        "shop_contact": {
+            "line": "",
+            "facebook": "",
+            "phone": ""
+        },
+        "shop_cover": "assets\/uploads\/shop_covers\/cover_4_1768293977.png"
+    },
+    {
+        "username": "admin",
+        "password": "$2y$10$wjztbQxkMnjuKj816qc41eVQVJ1JPpqViMtnIMuMMiHcO987TIL7.",
+        "fullname": "Administrator",
+        "address": "Headquarters",
+        "phone": "0000000000",
+        "is_admin": true,
+        "is_seller": true,
+        "avatar_config": {
+            "type": "image",
+            "src": "assets\/images\/a15.png"
+        },
+        "id": 6,
+        "created_at": "2025-12-23 04:13:01"
+    },
+    {
+        "username": "testuser",
+        "password": "$2y$10$abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQ",
+        "password_plain": "Test1234",
+        "fullname": "\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49\u0e17\u0e14\u0e2a\u0e2d\u0e1a",
+        "fullname_en": "Test User",
+        "address": "123\/45 \u0e16.\u0e2a\u0e38\u0e02\u0e38\u0e21\u0e27\u0e34\u0e17 \u0e15.\u0e04\u0e25\u0e2d\u0e07\u0e15\u0e31\u0e19 \u0e2d.\u0e1e\u0e23\u0e30\u0e42\u0e02\u0e19\u0e07 \u0e08.\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e2f 10110",
+        "phone": "0812345678",
+        "avatar_config": {
+            "type": "image",
+            "src": "assets\/images\/a01.png"
+        },
+        "id": 7,
+        "created_at": "2026-01-19 13:56:00",
+        "is_seller": false
+    }
+]
