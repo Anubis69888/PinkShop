@@ -1,0 +1,343 @@
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Modal Box */
+.custom-modal {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 24px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+    transform: scale(0.8) translateY(20px);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.modal-overlay.active .custom-modal {
+    transform: scale(1) translateY(0);
+}
+
+.modal-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.modal-message {
+    color: var(--text-muted);
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+}
+
+.modal-btn {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 4px 15px rgba(106, 13, 173, 0.3);
+}
+
+.modal-btn:hover {
+    background: var(--primary-light);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(106, 13, 173, 0.4);
+}
+
+/* Modal Close Button */
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a5a 100%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(238, 90, 90, 0.4);
+    z-index: 10;
+}
+
+.modal-close:hover {
+    transform: rotate(90deg) scale(1.1);
+    background: linear-gradient(135deg, #ff5252 0%, #d63031 100%);
+    box-shadow: 0 6px 20px rgba(214, 48, 49, 0.5);
+}
+
+.modal-close:active {
+    transform: rotate(90deg) scale(0.95);
+}
+
+/* ==========================================
+   Custom Alert Modal System (Doll Paradise Theme)
+   ========================================== */
+:root {
+    --theme-primary: #d67bb3;
+    --theme-primary-dark: #b55d92;
+    --theme-accent: #722ed1;
+    --theme-success: #ff6b81;
+    --theme-error: #ff4757;
+    --theme-warning: #ffa502;
+    --theme-info: #70a1ff;
+    --glass-bg: rgba(255, 255, 255, 0.95);
+    --glass-border: rgba(255, 255, 255, 0.8);
+    --glass-shadow: 0 25px 80px rgba(0, 0, 0, 0.15);
+}
+
+.custom-alert-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.custom-alert-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.custom-alert-box {
+    background: var(--glass-bg);
+    padding: 40px;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 420px;
+    text-align: center;
+    box-shadow: var(--glass-shadow);
+    transform: scale(0.9) translateY(20px);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid var(--glass-border);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Decorative background elements */
+.custom-alert-box::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 100px;
+    height: 100px;
+    background: var(--theme-primary);
+    filter: blur(50px);
+    opacity: 0.1;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.custom-alert-box::after {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    width: 120px;
+    height: 120px;
+    background: var(--theme-accent);
+    filter: blur(50px);
+    opacity: 0.1;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.custom-alert-overlay.active .custom-alert-box {
+    transform: scale(1) translateY(0);
+}
+
+.custom-alert-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: white;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.custom-alert-title {
+    font-size: 1.8rem;
+    color: #444;
+    margin: 0 0 10px;
+    font-weight: 800;
+    position: relative;
+    z-index: 1;
+}
+
+.custom-alert-message {
+    color: #666;
+    font-size: 1.1rem;
+    margin: 0 0 30px;
+    line-height: 1.6;
+    position: relative;
+    z-index: 1;
+}
+
+.custom-alert-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.custom-alert-btn {
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Prompt', sans-serif;
+    min-width: 120px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background: linear-gradient(135deg, var(--theme-primary), var(--theme-primary-dark));
+    color: white;
+    box-shadow: 0 5px 15px rgba(214, 123, 179, 0.4);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(214, 123, 179, 0.5);
+}
+
+.btn-secondary {
+    background: #f1f2f6;
+    color: #666;
+}
+
+.btn-secondary:hover {
+    background: #e1e2e6;
+    transform: translateY(-3px);
+}
+
+/* Alert Types Styling */
+/* Success */
+.alert-type-success .custom-alert-icon {
+    background: linear-gradient(135deg, #a8e6cf, #dcedc1);
+    /* Soft Green/Mint */
+    color: #1b5e20;
+}
+
+.alert-type-success .btn-primary {
+    background: linear-gradient(135deg, #a8e6cf, #3b7a57);
+    box-shadow: 0 5px 15px rgba(59, 122, 87, 0.3);
+    color: white;
+}
+
+/* Error / Ban */
+.alert-type-error .custom-alert-icon,
+.alert-type-ban .custom-alert-icon {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    /* Soft Red */
+    color: #c0392b;
+}
+
+.alert-type-error .btn-primary,
+.alert-type-ban .btn-primary {
+    background: linear-gradient(135deg, #ff6b6b, #ee5253);
+    box-shadow: 0 5px 15px rgba(238, 82, 83, 0.3);
+}
+
+/* Warning */
+.alert-type-warning .custom-alert-icon {
+    background: linear-gradient(135deg, #ffeaa7, #fab1a0);
+    color: #d35400;
+}
+
+.alert-type-warning .btn-primary {
+    background: linear-gradient(135deg, #f0932b, #ffbe76);
+    box-shadow: 0 5px 15px rgba(240, 147, 43, 0.3);
+}
+
+/* Info */
+.alert-type-info .custom-alert-icon {
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    color: white;
+}
+
+.alert-type-info .btn-primary {
+    background: linear-gradient(135deg, #0984e3, #74b9ff);
+    box-shadow: 0 5px 15px rgba(9, 132, 227, 0.3);
+}
+
+/* Unban */
+.alert-type-unban .custom-alert-icon {
+    background: linear-gradient(135deg, #55efc4, #81ecec);
+    color: #00b894;
+}
+
+.alert-type-unban .btn-primary {
+    background: linear-gradient(135deg, #00b894, #55efc4);
+    box-shadow: 0 5px 15px rgba(0, 184, 148, 0.3);
+}
